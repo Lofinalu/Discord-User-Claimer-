@@ -1,0 +1,29 @@
+{
+    "hide_errors": false,
+    "gateway_use_proxy": false,
+    "captcha_verbose": false,
+    "webhook_url": "",
+    "captcha_services": [
+        {
+            "service_name": "",
+            "key": "",
+            "use_proxy": false
+        }
+    ],
+    "sniper": {
+        "discord_bot": {
+            "enabled": true,
+            "token": "",
+            "checker_listener": {
+                "enabled": true,
+                "channel_id": "",
+                "webhook_only": true
+            }
+        },
+        "token_pool_size": 3,
+        "captcha_pool_size": 1,
+        "fetch_cookies": false,
+        "claim_retries": 1,
+        "separate_proxies": false
+    }
+}
